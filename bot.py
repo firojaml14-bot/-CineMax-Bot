@@ -35,8 +35,8 @@ PLATFORMS = [
     ("Discovery+", "https://www.discoveryplus.com/"),
     ("JustWatch", "https://www.justwatch.com/in/search?q="),
     ("hdhub4u","https://new17.hdhub4u.cl/search.html?q=+"),
+    ("playdrive","https://playdrive.vip/e/AQATj7UAAr667g/="),
    ]
-
 def get_movie(name):
     r = requests.get(
         "https://api.themoviedb.org/3/search/movie",
