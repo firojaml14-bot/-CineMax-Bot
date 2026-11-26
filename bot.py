@@ -126,7 +126,10 @@ def main():
     if not BOT_TOKEN or not TMDB_API_KEY:
     print("BOT_TOKEN present:", bool(BOT_TOKEN))
     print("TMDB_API_KEY present:", bool(TMDB_API_KEY))
-        raise ValueError("BOT_TOKEN ya TMDB_API_KEY missing hai.")
+    raise ValueError("BOT_TOKEN ya TMDB_API_KEY missing hai.")
+    
+
+    
 
     app = Application.builder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
