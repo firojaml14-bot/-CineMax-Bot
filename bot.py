@@ -34,8 +34,8 @@ PLATFORMS = [
     ("Chaupal", "https://www.chaupal.tv/"),
     ("Discovery+", "https://www.discoveryplus.com/"),
     ("JustWatch", "https://www.justwatch.com/in/search?q="),
-    ("hdhub4u","https://new17.hdhub4u.cl/?utm=gs"),'
-]'
+    ("hdhub4u","https://new17.hdhub4u.cl/?utm=gs"),
+   ]
 
 def get_movie(name):
     r = requests.get(
